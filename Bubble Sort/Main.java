@@ -3,7 +3,7 @@ import java.util.Arrays;
 //comparison sort method
 // also known as sinking sort or exchange sort
 // at every pass the largest element comes to the end
-// dont hv to com[pare the sorted part again and again
+// dont hv to compare the sorted part again and again
 // i - counter the steps in a pass continues till i =n-1 coz no need to compare when single element in unsorted list
 //j-internal loop   j starts from 1 index - till <length-i (will end at part of arr not sorted as it wont compare the sorted elements)
 // if a[j]<a[j-1] - swap (that is if second element is less than prev element)

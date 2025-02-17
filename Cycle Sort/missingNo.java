@@ -1,4 +1,4 @@
-// Cyclic Sort Approach:
+//Cyclic Sort Approach:
 //range will be 0-n ...total n+1 nos
 //if no from 0 and index from 0... index=value 
 // We place each number at its correct index (arr[i] should be at index arr[i]).

@@ -6,11 +6,11 @@ public class InPlaceSorting {
     
     // Merge Sort function (recursive)
     static void mergeSort(int[] arr, int s, int e) { 
-        if (e - s == 1) { // Base case: If only one element remains, return
+        if (e - s == 1) { // Base case: If only one element remains, return.....or if s>=e....is start index becomes greater than end index 
             return;    
         }
 
-        int mid = (s + e) / 2;  // Find the middle index
+        int mid = (s + e) / 2;  // Find the middle index...or write as s + (e-s)/2
 
         // Recursively sort both halves
         mergeSort(arr, s, mid);  // Left half: from index 's' to 'mid-1'
@@ -22,7 +22,7 @@ public class InPlaceSorting {
 
     // Merge function to merge two sorted subarrays
     static void merge(int[] arr, int s, int m, int e) {  
-        int[] ans = new int[e - s];  // Temporary array to store merged elements
+        int[] ans = new int[e - s];  // Temporary array to store merged elements...+1 to get proper length 
         int i = s;  // Pointer for the left half
         int j = m;  // Pointer for the right half
         int k = 0;  // Pointer for the temporary array

@@ -8,7 +8,8 @@ public class Output {
         //but if obj is null so obj.toString...null.toString ...error ...creates an exception ***null pointer exception 
         System.out.println(Arrays.toString(new int[] {1,2,3,4,5})); //returns arr..bcoz it uses function overriding ...using Arrays.toString 
 
-        String name =null;
+        // String name =null;
+        String name=null ;
         System.out.println(name);//returns null ...bcoz we have not stored any value as string in name ...by default it returns null
     }
 }

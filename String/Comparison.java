@@ -1,6 +1,6 @@
 //comparisons of strings
 //==.....checks if reference var points to same obj...if variables point to same obj=true 
-//.equals()...when u only need to check values not obj 
+//.equals()...when u only need to check values not obj ...
 //how to create diff obj of same value..use new keyword...creates values outside pool but in same heap
 public class Comparison {
     public static void main(String[] args) {
@@ -16,11 +16,6 @@ public class Comparison {
         String y = new String("khan");
         System.out.println(x==y);//false bcoz both reference to diff obj ...creates values outside pool but in heap
         System.out.println(x.equals(y));//true
-
-       
-      
-
-
      
     }
 }

@@ -3,14 +3,18 @@
 // note-represent char usimg single quotes
 //char converts to ASCII values ...but strigs do not convert to its ASCII values
 // + is only defined for primitives or any one of the value is string
+//string+ int/char/streing/obj..
 import java.util.*;
-public class operators {
+public class operations {
     public static void main(String[] args) {
         System.out.println('a' + 'b');//it convetrs char into int values and adds them ASCII 
         System.out.println("a"+ "b");//it simply concats the string 
         System.out.println('a' + 3);//returns 100..97 + 3 = 100.
         System.out.println((char)('a' + 3));//returns d...97+3-100...which is d
         System.out.println("a"+ 'a' ); //aa
+
+        System.out.println("abc"+10+20);//returns abc1020...and not abc30  ***..precedence is left to right
+        System.out.println(10+20+"abc");//returns 30abc
 
         //integer will be converted to Integer ..that will call toString()
         System.out.println("a"+ 1);//returns a1...it simply concats the string
